@@ -121,11 +121,11 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/BigFluffy</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/BigFluffy/Dessicated_BigFluffy</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
