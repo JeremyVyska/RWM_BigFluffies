@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TraderKindDef>
+        <defName>Orbital_Exotic_Fluffy</defName>
+        <label>fluffy dealer</label>
+        <commonality>0.7</commonality>
+        <orbital>true</orbital>
+        <stockGenerators>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <totalPriceRange>-100~100</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Animals">
+                <tradeTagsSell>
+                    <li>Fluffy</li>
+                </tradeTagsSell>
+                <tradeTagsBuy>
+                    <li>Fluffy</li>
+                    <li>AnimalUncommon</li>
+                    <li>AnimalFarm</li>
+                    <li>AnimalPet</li>
+                </tradeTagsBuy>
+                <kindCountRange>2~4</kindCountRange>
+                <countRange>6~9</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Hay</thingDef>
+                <countRange>300~900</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wool_BigFluffy</thingDef>
+                <countRange>300~900</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Leather_BigFluffy</thingDef>
+                <countRange>200~800</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>FoodMeals</categoryDef>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>15~30</countRange>
+            </li>
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

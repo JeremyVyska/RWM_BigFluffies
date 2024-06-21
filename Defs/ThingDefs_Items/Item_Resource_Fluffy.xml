@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="LeatherBase">
+		<defName>Leather_BigFluffy</defName>
+		<label>big fluffy leather</label>
+		<description>Leather from a big fluffy provides exceptional insulation and is fairly durable.</description>
+		<graphicData>
+			<color>(198,125,191)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>8.0</MarketValue>
+			<StuffPower_Armor_Sharp>1.30</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.50</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+		</statBases>
+		<stuffProps>
+			<color>(198,125,191)</color>
+			<commonality>0.075</commonality>
+			<statFactors>
+				<Beauty>8</Beauty>
+			</statFactors>
+		</stuffProps>
+		<tradeTags>
+            <li>FluffyMaterials</li> <!-- For use in fluffy traders -->
+        </tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="WoolBase">
+		<defName>Wool_BigFluffy</defName>
+		<label>big fluffy wool</label>
+		<description>Wool from a big fluffy provides exceptional insulation and the fiber density makes it strong against many forms of attack.</description>
+		<graphicData>
+			<color>(198,125,191)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>2.6</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.30</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.50</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0.03</commonality>
+			<color>(198,125,191)</color>
+			<statFactors>
+				<Beauty>8</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+</Defs>
