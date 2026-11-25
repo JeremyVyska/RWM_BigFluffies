@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- RimWorld 1.6 moved wildness from race properties to the Wildness stat.
+	     Detect which one this game version has, so one def file works on every version. -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/StatDef[defName="Wildness"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="BigFluffy"]/statBases</xpath>
+			<value><Wildness>0.1</Wildness></value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="BigFluffy"]/race</xpath>
+			<value><wildness>0.1</wildness></value>
+		</nomatch>
+	</Operation>
+</Patch>

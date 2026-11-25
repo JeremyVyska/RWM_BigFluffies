@@ -2,7 +2,7 @@
 <Defs>
     <TraderKindDef>
         <defName>Caravan_Neolithic_ShamanMerchant_Fluffy</defName>
-        <label>fluffy shepard</label>
+        <label>fluffy shepherd</label>
         <commonality>0.7</commonality>
         <stockGenerators>
             <li Class="StockGenerator_SingleDef">
