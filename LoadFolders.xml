@@ -3,17 +3,21 @@
 	<v1.4>
 		<li>/</li>
 		<li IfModActive="sambucher.adogsaidanimalprosthetics2">ModCompat/ADogSaid</li>
+		<li IfModActive="Twokay.Plushies.Specific">ModCompat/Plushies</li>
 	</v1.4>
 	<v1.5>
 		<li>/</li>
 		<li IfModActive="sambucher.adogsaidanimalprosthetics2">ModCompat/ADogSaid</li>
+		<li IfModActive="Twokay.Plushies.Specific">ModCompat/Plushies</li>
 	</v1.5>
 	<v1.6>
 		<li>/</li>
 		<li IfModActive="sambucher.adogsaidanimalprosthetics2">ModCompat/ADogSaid</li>
+		<li IfModActive="Twokay.Plushies.Specific">ModCompat/Plushies</li>
 	</v1.6>
 	<v1.7>
 		<li>/</li>
 		<li IfModActive="sambucher.adogsaidanimalprosthetics2">ModCompat/ADogSaid</li>
+		<li IfModActive="Twokay.Plushies.Specific">ModCompat/Plushies</li>
 	</v1.7>
 </loadFolders>

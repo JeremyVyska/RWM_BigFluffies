@@ -10,6 +10,7 @@
             <MarketValue>400</MarketValue>
             <MeatAmount>75</MeatAmount>
             <MoveSpeed>7.3</MoveSpeed>
+            <FilthRate>0</FilthRate> <!-- tracks zero filth -->
             <!-- more than implied by body size -->
         </statBases>
         <race>
@@ -26,9 +27,16 @@
             <foodType>VegetarianRoughAnimal</foodType>
 
             <trainability>Advanced</trainability>
-            <nuzzleMtbHours>36</nuzzleMtbHours>
+            <nuzzleMtbHours>4</nuzzleMtbHours> <!-- vanilla pets: 12-24. Fluffies: relentless. -->
             <packAnimal>true</packAnimal>
+            <herdAnimal>true</herdAnimal>
+            <nameOnTameChance>1</nameOnTameChance> <!-- tamed fluffies always get a silly name -->
+            <nameGenerator>NamerAnimal_BigFluffy</nameGenerator>
+            <nameGeneratorFemale>NamerAnimal_BigFluffy</nameGeneratorFemale>
 	        <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+            <manhunterOnDamageChance>0</manhunterOnDamageChance> <!-- never goes manhunter; still fights back when attacked -->
+            <bloodDef>Filth_Fluff_BigFluffy</bloodDef> <!-- they bleed fluff -->
+            <bloodSmearDef>Filth_FluffSmear_BigFluffy</bloodSmearDef>
 
             <lifeExpectancy>80</lifeExpectancy>
             <gestationPeriodDays>5</gestationPeriodDays>
@@ -73,6 +81,11 @@
                 <woolDef>Wool_BigFluffy</woolDef>
                 <shearIntervalDays>5</shearIntervalDays>
                 <woolAmount>150</woolAmount>
+            </li>
+            <li Class="CompProperties_Milkable">
+                <milkDef>Milk_BigFluffy</milkDef>
+                <milkIntervalDays>1</milkIntervalDays>
+                <milkAmount>20</milkAmount>
             </li>
         </comps>
         <tools>
